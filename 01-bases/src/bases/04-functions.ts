@@ -26,5 +26,6 @@ const heroes = [
 ];
 
 const hero = heroes.find((h) => h.id === 1);
-console.log(hero?.name);
+
+console.log(hero?.power?.toUpperCase());
 
